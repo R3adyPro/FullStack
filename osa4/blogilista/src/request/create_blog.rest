@@ -1,9 +1,11 @@
-POST http://localhost:3003/api/blogs/63d7f230b144b319bbe4b2e2
+POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikpvb25hYWEiLCJpZCI6IjYzZGI5MWIxNDIzZWZmYWJlZmM2ZGU5YiIsImlhdCI6MTY3NTMzNDA5MX0.zcKVQ3XRh80dxH0Sz1J-sEMDlYsoe7MbYdhyWLtMUJw
 
 {
-    "title": "testi1",
-    "author": "testi1",
-    "url": "testi1",
-    "likes": 21
+    "title": "testi3",
+    "author": "testi3",
+    "url": "testi3",
+    "likes": 22,
+    "userId": "63db6ca24d3edfea24babc58"
 }
