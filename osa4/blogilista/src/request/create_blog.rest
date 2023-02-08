@@ -1,11 +1,11 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikpvb25hYWEiLCJpZCI6IjYzZGI5MWIxNDIzZWZmYWJlZmM2ZGU5YiIsImlhdCI6MTY3NTMzNDA5MX0.zcKVQ3XRh80dxH0Sz1J-sEMDlYsoe7MbYdhyWLtMUJw
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlRlaWphIiwiaWQiOiI2M2RiYWQyMTkxMzQxZGM1MTcwY2FhMjMiLCJpYXQiOjE2NzU0NTk0MjR9.k1cLQoUvJvWOVvWdhMKwkzY7kOW6x3zjXKNlTxV6ZN8
 
 {
-    "title": "testi3",
-    "author": "testi3",
-    "url": "testi3",
+    "title": "Huuli",
+    "author": "Teija",
+    "url": "www.testi.com",
     "likes": 22,
-    "userId": "63db6ca24d3edfea24babc58"
+    "userId": "63dbad2191341dc5170caa23"
 }
